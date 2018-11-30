@@ -1,0 +1,362 @@
+﻿/*Các xử lý định dạng cho layout.html*/
+
+@import url('basic.css');
+@import url('responsived.css');
+
+.header{
+	background: #efefef;
+}
+
+.top{
+	
+}
+
+.wel{
+	float: left;
+	margin-top: 20px;
+	font: bold 12px tahoma;
+	color: #666;
+}
+
+.lang{
+	float: right;
+	width: auto;
+	margin-top: 10px;
+}
+
+.lang img{
+	border-radius: 10px;
+}
+
+.search{
+	float: right;
+	margin-top: 12px;
+	margin-right: 30px;
+	width: auto;
+}
+
+.banner{
+	height: 140px;
+	margin: 15px 0;
+	background: url('../imgs/header.jpg') no-repeat center;
+}
+
+.menu{
+	height: 59px;
+	background: #06c;
+}
+
+.menu a{
+	display: block;
+	float: left;
+	color: #fff;
+	padding: 20px;
+	font: normal 16px tahoma;
+}
+
+.menu a:hover{
+	background: #39f;
+}
+
+.content{
+
+	
+}
+
+.view{
+	
+}
+
+.intros{
+	background: #aaa;
+	height: 450px;
+}
+
+.focus{
+	margin-top: -20px;
+	margin-right: 20px;
+}
+
+.f2left, .f2right{
+	height: 250px;
+	overflow: hidden;
+}
+
+.f2left{
+	margin-right: 20px;
+}
+
+.f2right{
+	margin-left: 20px;
+}
+
+.f2left .box-img, .f2right .box-img{
+	width: 100%;
+	height: 160px;
+	overflow: hidden;
+}
+
+.f2left img, .f2right img{
+	width: 100%;
+}
+
+.f2left h3, .f2right h3{
+	margin-top: 15px;
+	font: bold 16px tahoma;
+	text-align: justify;
+	line-height: 20px;
+	/*quy định chiều cao cho H3, phần thừa thì ẩn đi*/
+	height: 40px;
+	overflow: hidden;  
+}
+
+
+
+.sections{
+	margin-right: 20px;
+	margin: 30px;
+}
+
+.sections-title{
+	background: #06c;
+	height: 40px;
+	margin-bottom: 10px;
+}
+.maintab, .subtab{
+	display: block;
+	float: left;
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: auto;
+}
+
+.maintab{
+	background: #06c;
+	margin-top: -12px;
+	border-radius: 15px;
+	padding-top: 22px;
+	font-weight: bold;
+	font-size: 16;
+}
+
+.subtab{
+	border-left: 1px solid #aaa;
+	padding-top: 10px;
+	padding-bottom: 13px;
+}
+
+.sections-content{
+	
+}
+
+.sections-content-left{
+	
+	
+	height: 350px;
+
+}
+
+.sections-content-left .box-img2{
+	width: 100%;
+	height:200px;
+	overflow: hidden;
+}
+
+.sections-content-left img{
+	width: 100%;
+}
+
+.sections-content-left h3{
+	margin 15px 0;
+	font: bold 14px tahoma;
+	line-height: 22px;
+	text-align: justify;
+	color: #aaf;
+	/*quy định chiều cao cho H3, phần thừa thì ẩn đi*/
+	height: 50px;
+	overflow: hidden;
+}
+
+.sections-content-left h3:hover{
+	color: #333;
+}
+
+.sections-content-right{
+	
+	height: auto;
+	
+}
+
+.sections-content-right-item{
+	margin-left: 20px;
+}
+
+.sections-content-right-item .box-img3{
+	width: 100%;
+	height: 120px;
+	overflow: hidden;
+}
+.box-img3 img{
+	width: 100%;
+}
+
+.sections-content-right-item h3{
+	font: normal 14px tahoma;
+	margin: 10px 0;
+	text-align: justify;
+	line-height: 20px;
+	/*quy định chiều cao cho H3, phần thừa thì ẩn đi*/
+	height: 40px;
+	overflow: hidden;
+}
+
+.sections-more{
+	background: #eee;
+	height: 30px;
+	border-top: 1px solid #ccc;
+}
+
+.sections-more span{
+	float: right;
+	display: block;
+	margin-top: 5px;
+	margin-right: 15px;
+	font: bold 12px tahoma;
+	color: #888;
+}
+
+span:hover{
+	color: #333;
+}
+
+.rview{
+	height: auto;
+}
+
+.item-news{
+	margin-right: 10px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.item-news .box-img4{
+	float: left;
+	margin-right: 10px;
+	width: 120px;
+	height: 100px;
+	overflow: hidden;		
+}
+
+.item-news .box-img4 img{
+	width: 100%;
+}
+
+.item-news h3{
+	font: normal 14px tahoma;
+	text-align: justify;
+	line-height: 20px;
+	
+	height: 40px;
+	overflow: hidden;
+}
+
+.forAdv1{
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.forAdv2{
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.forAdv1 img, .forAdv2 img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.most-view{
+	margin-right: 10px;
+	border-bottom: 1px solid #aaa;
+	
+}
+
+.most-view marquee{
+	background: #efefef;
+	height: 300px;
+	width: 100%;
+}
+
+.most-view-item{
+	display: block;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+	line-height: 20px;
+}
+
+.bview{
+	background: red;
+	height: 100px;
+}
+
+.rcontent{
+	height: auto;
+	
+}
+
+.video{
+	margin-left: 10px;
+	
+}
+
+.support{
+	background: #fc9;
+	height: 300px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.support iframe{
+	height: 300px;
+}
+
+
+.video iframe{
+	width: 100%;
+	height: 250px;
+}
+
+.footer{
+	background: #e9e9e9;
+	
+}
+
+.menu-bottom{
+	height: 40px;
+	margin: 20px 0;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.copyright{
+	height: 100px;
+	
+}
+
+.copyright .c3 img{
+	height: 100px;
+	margin-right: 20px;
+}
+
+.copyright .c3{
+	font: normal 12px tahoma;
+	line-height: 20px;
+	text-align: right;
+	color: #888;
+}

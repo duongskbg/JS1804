@@ -1,0 +1,60 @@
+﻿<!-- Thiết kế nguyên mẫu giao diện nhà cung cấp -->
+<html>
+	<head>
+		<title>Cập nhật nhà cung cấp</title>
+		<link href="provider.css" rel="stylesheet" type="text/css"/>
+		<script language="JavaScript" src="provider.js" ></script>
+	</head>
+	<body>
+		<div class="providerView">
+			<form name="frmProvider" action="" method="">
+				<div class="row row-heading">
+					Quản lý nhà cung cấp
+				</div>
+				
+				<div class="row">
+					<div class="c3 lc">Tên nhà cung cấp</div>
+					<div class="c9">
+						<input type="text" name="txtProviderName" class="c40 space" onkeyup = "checkValidProvider(this.form)" />
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c3 lc">Ảnh</div>
+					<div class="c9">
+						<input type="file" name="txtProviderImage" class="c60 space"/>
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c3 lc">Mô tả nhà cung cấp</div>
+					<div class="c9">
+						<textarea rows=10 name="txtProviderNotes" class="c80 space"/></textarea>
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c3 lc">
+						<input type="checkbox" id="chkAgree" name = "chkAgree" OnClick = "checkValidProvider(this.form)" />
+					</div>
+					<div class="c9">
+						<label for="chkAgree" class="space space-top3">
+							Bạn có đồng ý với các quy định của nhà cung cấp?
+						</label>
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row row-buttons">
+					<input type="button" name="btnRegistry" value="Đăng ký" disabled />
+					<input type="button" value="Nhập lại" onclick="resetAll(this.form)" />
+					<input type="button" value="Thoát" onclick="window.close()"/>
+				</div>
+				
+			</form>
+		</div>
+	</body>
+</html>

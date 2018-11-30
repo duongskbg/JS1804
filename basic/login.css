@@ -1,0 +1,11 @@
+@import url('basic.css'); /*kế thừa từ file basic.css*/
+.loginview{ /* . la class con # là id*/
+	width: 400px;
+	height: auto;
+	/*border-width: 10px;
+	border-style: outset;
+	border-color: blue;*/
+	border: 1px solid #666;
+	background-color: #efefef;
+	margin: auto;
+}

@@ -1,0 +1,13 @@
+﻿/*Các xử lý định dạng cho provider.html*/
+
+@import url('basic.css');
+@import url('responsived.css');
+
+.providerView{
+	min-width: 600px;
+	max-width: 1200px;
+	height: auto;
+	
+	margin: 0 auto;
+	background: #efefef;
+}

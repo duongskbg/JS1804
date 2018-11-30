@@ -1,0 +1,164 @@
+﻿<!-- Thiết kế nguyên mẫu giao diện Người dử dụng (user) -->
+
+<html>
+	<head>
+		<title></title>
+		<link href="user.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="user.js"></script>
+	</head>
+	
+	<body>
+		<div class="main1200">
+			<form name="frmUser" action="" method="">
+				<div class="row row-heading">
+					Thông tin tài khoản
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Tên tài khoản</div>
+					<div class="c10">
+						<input type="text" name="txtAccName" class="c20 space">
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Mật khẩu</div>
+					<div class="c10">
+						<input type="password" name="txtAccpass" class="c20 space">
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Hộp thư</div>
+					<div class="c10">
+						<input type="text" name="txtAccEmail" class="c20 space">
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Quyền thực thi</div>
+					<div class="c10">
+						<script language="JavaScript">
+							generatePermis(); //có thể bỏ this
+						</script>
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc space-top13">Vai trò</div>
+					<div class="c10">
+						<script language="JavaScript">
+							generateRoles(); //có thể bỏ this
+						</script>
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row row-heading">
+					Thông tin chi tiết
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Tên đầy đủ</div>
+					<div class="c10">
+						<input type="text" name="txtFullname" class="c40 space" />
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Bí danh</div>
+					<div class="c10">
+						<input type="text" name="txtAlias" class="c40 space" />
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Địa chỉ</div>
+					<div class="c10">
+						<input type="text" name="txtAddress" class="c60 space" />
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Ngày sinh</div>
+					<div class="c10">
+						<input type="date" name="txtDate" class="c40 space" />
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Điện thoại</div>
+					<div class="c10">
+						<input type="text" name="txtPhone" class="c40 space" />
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Di động</div>
+					<div class="c10">
+						<input type="text" name="txtMobile" class="c40 space" />
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Giới tính</div>
+					<div class="c10">
+						<select name="slcGender" class="c40 space">
+							<option value="0">Nam</option>
+							<option value="1">Nữ</option>
+							<option value="2">Nam-->Nữ</option>
+							<option value="3">Nữ-->Nam</option>
+							<option value="4">Nam---</option>
+							<option value="5">Nữ---</option>
+							<option value="6" selected>---</option>
+						</select>
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Mô tả</div>
+					<div class="c10">
+						<textarea rows="20" name="txtnote" class="space c80"> </textarea>
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row row-heading">
+					Cơ quan làm việc
+				</div>
+				
+				<div class="row">
+					<div class="c2 lc">Tên cơ quan</div>
+					<div class="c10">
+						<input type="text" name="txtDepartment" class="space c60" />
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row row-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7446.802340004991!2d105.73817434495237!3d21.056633661147917!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345457e292d5bf%3A0x20ac91c94d74439a!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1542282622983" 
+					width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				
+				<div class="row row-buttons">
+					<input type="button" value="Thêm mới" />
+					<input type="reset" value="Nhập lại" />
+					<input type="button" value="Trở về" />
+					<input type="button" value="Thoát" />
+				</div>
+				
+			</form>
+		</div>
+	</body>
+</html>
